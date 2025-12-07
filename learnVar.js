@@ -41,3 +41,5 @@ for(let i = 0;i<=str2.length-1;i++){
 }
 
 console.log(str3.join('').trim())
+
+// comment added to check the pushed code in github
