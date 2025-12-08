@@ -48,4 +48,4 @@ const promise1=new Promise((resolve)=>{
             resolve("Done")
         })
 })
-promise1.then(()=>console.log("First promise created"))
+promise1.then(()=>console.log("First promise create"))
