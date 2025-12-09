@@ -78,12 +78,26 @@
 // for(let value in obj){
 // //     console.log(obj.name)
 // }
-async function getData() {
-    let response = await fetch('https://jsonplaceholder.typicode.com/posts');
-    let data =await response.json();
-    console.log(data)
+// async function getData() {
+//     let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+//     let data =await response.json();
+//     console.log(data)
     
+// }
+// getData().then(()=>{
+//     console.log('Data fetch ')
+// })
+class User{
+    constructor(name,age){
+        this.name=name;
+        this.age=age
+    }
 }
-getData().then(()=>{
-    console.log('Data fetch ')
-})
+let u1= new User("Abhinav",24)
+console.log(u1)
+
+function User1(name,age){
+    return {name,age}
+}
+
+const u2=  User1("Abhinav",24)
