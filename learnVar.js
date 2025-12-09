@@ -131,20 +131,28 @@
 //     console.log('Akash')
 // })
 
-function getUser(){
-    return new Promise(resolve=>
-        setTimeout(()=>console.log("user fetched"),10000)
-    )
-}
-function getpost(){
-    return new Promise(resolve=>
-        setTimeout(()=>console.log("post fetched"),1000)
-    )
-}
-getUser().then(user=> {console.log(user)
-    return getpost();
-}
-)
-.then(post=> console.log(post))
-.catch(err=> console.error('Something error'))
+// function getUser(){
+//     return new Promise(resolve=>
+//         setTimeout(()=>console.log("user fetched"),10000)
+//     )
+// }
+// function getpost(){
+//     return new Promise(resolve=>
+//         setTimeout(()=>console.log("post fetched"),1000)
+//     )
+// }
+// getUser().then(user=> {console.log(user)
+//     return getpost();
+// }
+// )
+// .then(post=> console.log(post))
+// .catch(err=> console.error('Something error'))
 
+let obj={
+    name:"Akshit",
+    age:34,
+    job_desc:"java"
+}
+
+let {name,...rest}=obj
+console.log(name,rest)
