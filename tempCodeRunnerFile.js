@@ -1,4 +1,4 @@
-// // let name = '    abhinav kumar     ';
+// let name = '    abhinav kumar     ';
 // // var name2 = 'vicky kumar';
 // // const name3 = 'vipul kumar';
 
@@ -111,22 +111,3 @@
 //     }
 // }
 // person.greet()
-
-// const user ={
-//     name:"Abhinav",
-//     greet1(){
-// console.log(this.name)
-//     }
-// }
-// user.greet1()
-setTimeout(()=>{
-    console.log("Rahul")
-})
-const promise = new Promise((res,rej)=>{
-    res("Abhi")
-   setTimeout(()=>{
-    console.log("Abhinav")
-   },1000)
-}).then(()=>{
-    console.log('Akash')
-})
