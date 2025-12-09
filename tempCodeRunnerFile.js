@@ -104,10 +104,13 @@
 
 // const u2=  User1("Abhinav",24)
 
-// const person={
-//     name:"Akash",
-//      greet(){
-//        console.log("Welcome")
-//     }
-// }
-// person.greet()
+const person={
+    name:"Akash",
+     greet(){
+       console.log("Welcome")
+    }
+}
+person.greet()
+console.log(person.name)
+person.greet()
+Object.keys(person)

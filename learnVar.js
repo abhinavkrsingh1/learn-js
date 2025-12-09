@@ -1,4 +1,4 @@
-// // let name = '    abhinav kumar     ';
+// // let name = 'abhinav kumar';
 // // var name2 = 'vicky kumar';
 // // const name3 = 'vipul kumar';
 
